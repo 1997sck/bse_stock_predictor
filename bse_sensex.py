@@ -56,7 +56,7 @@ def get_data_from_yahoo_bse(reload_bse=False):
         else:
             print('Already have {}'.format(ticker))
 
-#get_data_from_yahoo_bse()
+##get_data_from_yahoo_bse()
 
 def compile_data_bse():
     with open("bse_tickers.pickle","rb") as f:
